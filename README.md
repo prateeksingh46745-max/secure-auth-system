@@ -73,6 +73,17 @@ python app.py
 2. **Login:** User submits email and password. bcrypt verifies the password against the stored hash. If valid, a JWT access token is issued.
 3. **Protected Access:** Requests to `/profile` must include the JWT token in the Authorization header (`Bearer <token>`). The server validates the token before returning user data.
 
+## Screenshots
+
+### Register Endpoint
+![Register](screenshots/register.png)
+
+### Login Endpoint
+![Login](screenshots/login.png)
+
+### Protected Route
+![Profile](screenshots/profile.png)
+
 ## Testing
 
 Tested using Postman:
