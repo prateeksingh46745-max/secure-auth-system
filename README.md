@@ -17,6 +17,13 @@ A backend authentication system built with Flask, featuring JWT-based session ma
 - **Authentication:** Flask-JWT-Extended
 - **Password Hashing:** bcrypt
 
+## Live Demo
+
+API is deployed and live at:
+**https://prateek-auth-system-2026.onrender.com**
+
+> Note: Free tier hosting may take 30-50 seconds to respond on the first request after inactivity (server spin-up).
+
 ## Project Structure
 Secure_auth/
 
